@@ -13,7 +13,7 @@ export default function Header() {
     <>
       <HeaderContainer>
         <HeaderContent>
-          <Logo href="/">ADS Animes</Logo>
+          <Logo href="/">PR Animes</Logo>
 
           <Nav>
             <NavLink href="/">Home</NavLink>
@@ -34,7 +34,7 @@ export default function Header() {
 
 // 💅 Estilos do Header
 const HeaderContainer = styled.header`
-  background-color: #1e293b;
+  background-color: #05b9c6ff;
   color: white;
   padding: 1rem 2rem;
   position: fixed;
@@ -59,7 +59,7 @@ const HeaderContent = styled.div`
 const Logo = styled(Link)`
   font-size: 1.5rem;
   font-weight: 700;
-  color: #10b981;
+  color: #0400eaff;
   text-decoration: none;
 
   &:hover {
@@ -81,7 +81,7 @@ const NavLink = styled(Link)`
   transition: color 0.2s ease;
 
   &:hover {
-    color: #10b981;
+    color: #ce0c0cff;
   }
 `;
 
@@ -93,6 +93,6 @@ const LoginButton = styled.button`
   transition: color 0.2s ease;
 
   &:hover {
-    color: #10b981;
+    color: #c50b0bff;
   }
 `;

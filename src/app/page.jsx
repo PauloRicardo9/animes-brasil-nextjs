@@ -12,7 +12,7 @@ export default function Home() {
         <Content>
           <Title>Página dedicada a fãs de animes! 🎌</Title>
           <Subtitle>
-            Explore, descubra e compartilhe seus animes favoritos.
+            Aula pratica do Professor marcos, aluno paulo Ricardo da silva - 01782637 no dia 04/11/2025
           </Subtitle>
 
           {/* <ButtonWrapper>
